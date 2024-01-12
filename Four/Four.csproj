@@ -43,6 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Elements\Addition.cs" />
+    <Compile Include="Elements\Division.cs" />
+    <Compile Include="Elements\Factorial.cs" />
+    <Compile Include="Elements\Multiplication.cs" />
+    <Compile Include="Elements\Number.cs" />
+    <Compile Include="Elements\Subtraction.cs" />
+    <Compile Include="EquationElement.cs" />
     <Compile Include="FourEquation.cs" />
     <Compile Include="FourLibrary.cs" />
     <Compile Include="FourSolution.cs" />
@@ -52,5 +59,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -19,15 +19,24 @@ namespace Four
 
         private void AddEquation(FourEquation equation, int value)
         {
-            if(Solutions.Count == 0)
+            Output(equation, value);
+
+            if (Solutions.Count == 0)
             {
                 FourSolution solution = new FourSolution();
                 solution.Equations.Add(equation);
                 solution.Value = value;
                 Solutions.Add(solution);
+                return;
             }
 
+            int index = BinarySort(value);
+            Solutions[index].Equations.Add(equation);
+        }
 
+        public void Output(FourEquation equation, int value)
+        {
+            Console.WriteLine($"A value of {value} has equation {equation.Format()}");
         }
 
         private int BinarySort(int value)
@@ -35,7 +44,7 @@ namespace Four
             int lower = 0;
             int upper = Solutions.Count - 1;
 
-            while(lower < upper)
+            while(lower <= upper)
             {
                 int middle = (lower + upper) / 2;
                 if (Solutions[middle].Value == value)

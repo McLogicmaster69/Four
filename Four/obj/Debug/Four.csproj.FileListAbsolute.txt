@@ -1,0 +1,7 @@
+C:\Users\Mc\Desktop\Four\Four\bin\Debug\Four.exe.config
+C:\Users\Mc\Desktop\Four\Four\bin\Debug\Four.exe
+C:\Users\Mc\Desktop\Four\Four\bin\Debug\Four.pdb
+C:\Users\Mc\Desktop\Four\Four\obj\Debug\Four.csproj.AssemblyReference.cache
+C:\Users\Mc\Desktop\Four\Four\obj\Debug\Four.csproj.CoreCompileInputs.cache
+C:\Users\Mc\Desktop\Four\Four\obj\Debug\Four.exe
+C:\Users\Mc\Desktop\Four\Four\obj\Debug\Four.pdb
