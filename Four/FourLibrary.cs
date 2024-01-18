@@ -78,5 +78,13 @@ namespace Four
                 return lower;
             }
         }
+
+        public void PrintSolutions()
+        {
+            foreach(FourSolution solution in Solutions)
+            {
+                Output(solution.Equations[0], solution.Value);
+            }
+        }
     }
 }

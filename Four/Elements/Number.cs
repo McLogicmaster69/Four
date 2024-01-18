@@ -8,11 +8,12 @@ namespace Four.Elements
 {
     public class Number : EquationElement
     {
-        public float Value = 0;
+        public float Value;
 
-        public Number(float value)
+        public Number(float value, int fours) : base(ElementTypes.Number, fours)
         {
             Value = value;
+            Fours = fours;
         }
 
         public override float Equate() => Value;

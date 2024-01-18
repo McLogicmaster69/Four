@@ -48,6 +48,8 @@
     <Compile Include="Elements\Factorial.cs" />
     <Compile Include="Elements\Multiplication.cs" />
     <Compile Include="Elements\Number.cs" />
+    <Compile Include="Elements\Pow.cs" />
+    <Compile Include="Elements\Root.cs" />
     <Compile Include="Elements\Subtraction.cs" />
     <Compile Include="EquationElement.cs" />
     <Compile Include="FourEquation.cs" />

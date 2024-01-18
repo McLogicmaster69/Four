@@ -10,7 +10,7 @@ namespace Four.Elements
     {
         public EquationElement Element;
 
-        public Factorial(EquationElement element)
+        public Factorial(EquationElement element, int fours) : base(ElementTypes.Factorial, fours)
         {
             Element = element;
         }
@@ -27,6 +27,6 @@ namespace Four.Elements
             return total;
         }
 
-        public override string Format() => $"({Element.Format()}!)";
+        public override string Format() => $"{Element.Format()}!";
     }
 }

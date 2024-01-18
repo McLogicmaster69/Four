@@ -11,7 +11,7 @@ namespace Four.Elements
         public EquationElement Element1;
         public EquationElement Element2;
 
-        public Subtraction(EquationElement element1, EquationElement element2)
+        public Subtraction(EquationElement element1, EquationElement element2, int fours) : base(ElementTypes.Subtraction, fours)
         {
             Element1 = element1;
             Element2 = element2;

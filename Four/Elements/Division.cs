@@ -11,7 +11,7 @@ namespace Four.Elements
         public EquationElement Element1;
         public EquationElement Element2;
 
-        public Division(EquationElement element1, EquationElement element2)
+        public Division(EquationElement element1, EquationElement element2, int fours) : base(ElementTypes.Division, fours)
         {
             Element1 = element1;
             Element2 = element2;

@@ -5,3 +5,10 @@ C:\Users\Mc\Desktop\Four\Four\obj\Debug\Four.csproj.AssemblyReference.cache
 C:\Users\Mc\Desktop\Four\Four\obj\Debug\Four.csproj.CoreCompileInputs.cache
 C:\Users\Mc\Desktop\Four\Four\obj\Debug\Four.exe
 C:\Users\Mc\Desktop\Four\Four\obj\Debug\Four.pdb
+E:\Programming\Libaries\C#\FourFours\Four\Four\bin\Debug\Four.exe.config
+E:\Programming\Libaries\C#\FourFours\Four\Four\bin\Debug\Four.exe
+E:\Programming\Libaries\C#\FourFours\Four\Four\bin\Debug\Four.pdb
+E:\Programming\Libaries\C#\FourFours\Four\Four\obj\Debug\Four.csproj.AssemblyReference.cache
+E:\Programming\Libaries\C#\FourFours\Four\Four\obj\Debug\Four.csproj.CoreCompileInputs.cache
+E:\Programming\Libaries\C#\FourFours\Four\Four\obj\Debug\Four.exe
+E:\Programming\Libaries\C#\FourFours\Four\Four\obj\Debug\Four.pdb
