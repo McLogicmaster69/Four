@@ -55,8 +55,11 @@
     <Compile Include="FourEquation.cs" />
     <Compile Include="FourLibrary.cs" />
     <Compile Include="FourSolution.cs" />
+    <Compile Include="MultipleDetails.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RecursionGenerator.cs" />
+    <Compile Include="SingleDetails.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
