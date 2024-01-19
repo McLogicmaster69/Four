@@ -10,7 +10,7 @@ namespace Four.Elements
     {
         public EquationElement Element;
 
-        public Factorial(EquationElement element, int fours) : base(ElementTypes.Factorial, fours)
+        public Factorial(EquationElement element, int fours) : base(ElementTypes.Negative, fours)
         {
             Element = element;
         }

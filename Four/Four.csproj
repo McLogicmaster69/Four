@@ -47,6 +47,7 @@
     <Compile Include="Elements\Division.cs" />
     <Compile Include="Elements\Factorial.cs" />
     <Compile Include="Elements\Multiplication.cs" />
+    <Compile Include="Elements\Negative.cs" />
     <Compile Include="Elements\Number.cs" />
     <Compile Include="Elements\Pow.cs" />
     <Compile Include="Elements\Root.cs" />

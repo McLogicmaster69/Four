@@ -12,7 +12,8 @@ namespace Four
         public static SingleDetails[] SingleOperations = new SingleDetails[]
         {
             new SingleDetails(Factorial, "factorial"),
-            new SingleDetails(Root, "root")
+            new SingleDetails(Root, "root"),
+            new SingleDetails(Negative, "negatice")
         };
         public static MultipleDetails[] MultipleOperations = new MultipleDetails[] 
         { 
@@ -23,7 +24,7 @@ namespace Four
             new MultipleDetails(Pow, false, "pow"),
         };
 
-        private const int SINGLES = 1;
+        private const int SINGLES = 2;
 
         private static List<EquationElement>[,] _calculated;
 
@@ -145,18 +146,6 @@ namespace Four
                                     elements.Add(newElement);
                                     Console.WriteLine($"{opener} {newElement.Format()}");
                                 }
-
-                                /*
-                                if (!operation.Commutitive)
-                                {
-                                    EquationElement secondNewElement = operation.Method(fours, secondElement, firstElement);
-                                    if (secondNewElement != null)
-                                    {
-                                        elements.Add(secondNewElement);
-                                        Console.WriteLine($"{opener} {secondNewElement.Format()}");
-                                    }
-                                }
-                                */
                             }
                         }
                     }
@@ -189,7 +178,6 @@ namespace Four
                 numbers.Add(new Number(44f, 2));
                 numbers.Add(new Number(4.4f, 2));
                 numbers.Add(new Number(.44f, 2));
-                numbers.Add(new Number(4f / 9f, 2));
             }
             if (fours == 3)
             {
@@ -232,6 +220,11 @@ namespace Four
             if (element.Equate() == 1)
                 return null;
             return new Root(element, element.Fours);
+        }
+
+        private static EquationElement Negative(int fours, EquationElement element)
+        {
+            return new Negative(element, fours);
         }
 
         #endregion

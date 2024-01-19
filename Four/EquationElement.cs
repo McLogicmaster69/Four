@@ -29,7 +29,7 @@ namespace Four
         Subtraction,
         Multiplication,
         Division,
-        Factorial,
+        Negative,
         Root,
         Pow
     }

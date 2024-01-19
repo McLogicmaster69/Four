@@ -18,6 +18,6 @@ namespace Four.Elements
 
         public override float Equate() => Value;
 
-        public override string Format() => $"({Value})";
+        public override string Format() => $"{Value}";
     }
 }
